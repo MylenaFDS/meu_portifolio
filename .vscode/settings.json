@@ -1,4 +1,4 @@
 {
-    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}${separator}[Branch: django-admin]",
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}${separator}[Branch: templates]",
     "git.ignoreLimitWarning": true
 }
