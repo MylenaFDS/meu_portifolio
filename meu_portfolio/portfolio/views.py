@@ -10,3 +10,4 @@ def post_list(request):
 def post_detail(request, pk):
     post = get_object_or_404(Portfolio, pk=pk)  # Substitua Portfolio por Post, se for esse o seu modelo
     return render(request, 'portfolio/post_detail.html', {'post': post})
+

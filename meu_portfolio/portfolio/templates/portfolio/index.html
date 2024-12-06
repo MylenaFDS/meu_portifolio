@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+</head>
+<body>
+    {% extends 'portfolio/base.html' %}
+
+    {% block title %}Página Inicial{% endblock %}
+
+    {% block content %}
+    <h2>Bem-vindo ao Meu Portfolio!</h2>
+    <p>Explore os projetos incríveis listados abaixo.</p>
+    <ul>
+        {% for item in portfolio_items %}
+            <li>{{ item.title }} - {{ item.description }}</li>
+        {% endfor %}
+    </ul>
+    {% endblock %}
+</body>
+</html>
+
